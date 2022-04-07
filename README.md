@@ -13,7 +13,7 @@ Lightweight library to interfere with windows kernel written in C++, useful for 
 ## Example of Reading and Writing in memory and DLL injection
 
 ```cpp
-auto processEntry = win_kernel::GetProcess(L"ac_client.exe");
+	auto processEntry = win_kernel::GetProcess(L"ac_client.exe");
 	auto winProcess = new win_kernel::WinProcess(processEntry);
 
 	auto moduleEntry = winProcess->FetchModule(L"ac_client.exe");
