@@ -1,14 +1,14 @@
 # WinKernel
 
-Lightweight library to interfere with windows kernel written in C++, useful for hacking.
-
+Lightweight library to interfere with windows kernel written in C++, useful for hacking.  
+You have the C# version of this library [here](https://github.com/Scheduler2000/WinKernel)
 ## Features :
 
 - Binaries Reading in big endian (see `win_kernel\memory\WinMemoryReader`)
 - Binaries Reading in litle endian (see `win_kernel\memory\WinMemoryReader.cs`)
 - Binaries Writing in big endian (see `win_kernel\memory\WinMemoryWriter.cs`)
 - Binaries Writing in little endian (see `win_kernel\memory\WinMemoryWriter.cs`)
-- Native dll injection (see `win_kernel\memory\\WinProcess.cs`) for x86 and x64 processes
+- Native dll injection (see `win_kernel\memory\WinProcess.cs`) for x86 and x64 processes
 
 ## Example of Reading and Writing in memory and DLL injection
 
